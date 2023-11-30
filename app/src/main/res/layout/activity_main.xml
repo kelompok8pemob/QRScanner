@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_blue_bright"
+        android:orientation="vertical">
+
+        <Switch
+            android:id="@+id/switchBeep"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/holo_blue_bright"
+            android:minHeight="48dp"
+            android:text="Beep" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="List QR"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_bright"
+            android:contentDescription="@string/app_name">
+
+            <LinearLayout
+                android:id="@+id/lHistory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <!-- Daftar histori akan ditambahkan di sini -->
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutButtons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnimage"
+                android:layout_width="0dp"
+                android:layout_height="73dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:contentDescription="@string/app_name"
+                android:foreground="@android:drawable/ic_menu_gallery"
+                app:srcCompat="@android:drawable/divider_horizontal_bright" />
+
+
+            <ImageButton
+                android:id="@+id/btnscan"
+                android:layout_width="0dp"
+                android:layout_height="73dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:contentDescription="@string/app_name"
+                android:foreground="@android:drawable/ic_menu_camera"
+                app:srcCompat="@android:drawable/divider_horizontal_bright" />
+
+            <ImageButton
+                android:id="@+id/btnbuatqr"
+                android:layout_width="0dp"
+                android:layout_height="73dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:contentDescription="@string/app_name"
+                android:foreground="@android:drawable/ic_menu_edit"
+                app:srcCompat="@android:drawable/dark_header" />
+
+            <ImageButton
+                android:id="@+id/btnclear"
+                android:layout_width="0dp"
+                android:layout_height="73dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:contentDescription="@string/app_name"
+                android:foreground="@android:drawable/ic_menu_delete"
+                app:srcCompat="@android:drawable/divider_horizontal_bright" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
