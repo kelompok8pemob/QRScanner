@@ -25,4 +25,5 @@ https://ft.unesa.ac.id
 
 # Poster
 
-https://drive.google.com/drive/folders/16UlHnPfiGpal3he-tLs-SaWLMZ7iHSny
+[MYQRR](https://github.com/kelompok8pemob/QRScanner/assets/152490100/033d78d3-83b1-4518-92a1-369e129ce23d)
+
