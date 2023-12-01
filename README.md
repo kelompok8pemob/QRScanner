@@ -8,14 +8,19 @@ Aplikasi MyQrScanner ini dapat membantu pengguna untuk dengan cepat mengakses in
 # Anggota Kelompok:
 
 Dea Nurlita (22050974062) 
+
 Zaendy Ananda Putri (22050974067) 
+
 Alfa Qorina (22050974069) 
+
 Donny Ferdiansyah PP (22050974079)
 
 # Link
 
 https://pendidikan-ti.ft.unesa.ac.id
+
 https://unesa.ac.id
+
 https://ft.unesa.ac.id
 
 # Poster
